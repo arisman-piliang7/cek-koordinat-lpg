@@ -210,7 +210,7 @@ if uploaded_file is not None:
                         p.paragraph_format.space_after = Pt(0)
 
                     doc.add_paragraph("Medan, Januari 2025").alignment = WD_ALIGN_PARAGRAPH.LEFT
-                    doc.add_paragraph("No. /PND430000/2025-S3").alignment = WD_ALIGN_PARAGRAPH.LEFT
+                    doc.add_paragraph("No. /XXXXXXXXX/2025-XX").alignment = WD_ALIGN_PARAGRAPH.LEFT
                     doc.add_paragraph("Lampiran:")
 
                     perihal_paragraph = doc.add_paragraph()
@@ -231,8 +231,8 @@ if uploaded_file is not None:
                     add_paragraph_justify("2. Apabila pangkalan benar pada titik lokasi yang sama, maka segera lakukan pemindahan lokasi salah satu pangkalan.")
                     add_paragraph_justify("\nSelanjutnya agar Saudara segera menindaklanjuti temuan tersebut dan melaporkan kembali kepada kami dalam waktu 1 bulan kedepan.")
                     add_paragraph_justify("\nDemikian disampaikan, atas perhatian dan kerjasamanya kami ucapkan terima kasih.")
-                    doc.add_paragraph("\nRegion Manager Retail Sales Sumbagut")
-                    doc.add_paragraph("Edith Indra Triyadi")
+                    doc.add_paragraph("\nJabatan Manager")
+                    doc.add_paragraph("Nama Manager")
                     doc.add_paragraph("Tembusan:")
                     doc.add_paragraph("1. Executive GM Regional Sumbagut")
                     doc.add_paragraph("2. SAM Retail Terkait")
