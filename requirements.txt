@@ -1,0 +1,9 @@
+streamlit
+cryptography
+numpy
+scipy
+plotly
+pandas
+psutil
+XlsxWriter
+python-docx
