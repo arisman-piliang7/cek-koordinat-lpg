@@ -7,3 +7,4 @@ pandas
 psutil
 XlsxWriter
 python-docx
+networkx
