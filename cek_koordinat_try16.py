@@ -64,11 +64,15 @@ def format_agent_name(name):
 
 st.title("Evaluasi Jarak Koordinat Pangkalan LPG 3 Kg")
 
-# Link unduh template CSV
 st.markdown(
-    "[📄 Unduh Template CSV Format](https://1drv.ms/x/c/7ecd2200e2472646/EdQsa_aNPhdEv5Lz2fkafOEB2BAg6LkPDGKCUpjbNzGMTA?e=ka42cM)",
+    """
+    <a href="https://onedrive.live.com/download?resid=7ECD2200E2472646!265&authkey=!ALYZHnNNuQ0e-nY" target="_blank">
+        <button style='padding:10px 15px; background-color:#4CAF50; color:white; border:none; border-radius:5px;'>📄 Unduh Template CSV Format</button>
+    </a>
+    """,
     unsafe_allow_html=True
 )
+
 
 
 encoding_option = st.selectbox("Pilih encoding file CSV (default utf-8):",
